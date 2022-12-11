@@ -1,0 +1,75 @@
+body{
+    background-image: linear-gradient(to right,#fff,#ffd6fc,#ecb5ea);
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #1818df;
+    padding: 16px;
+}
+.navbar a:hover{
+    color: black;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap; 
+    list-style: none; 
+}
+.burger{
+    display: none;
+}
+.flex-title{
+      display: flex;
+}
+.title-content{
+    width: 45%;
+    padding: 7% 10%;
+}
+.title-head{
+    font-size: 3.5rem;
+    font-family: 'Merriweather', serif;
+    color: #6402c0;
+}
+.desc{
+    padding: 5% 0;
+}
+.image-1{
+    width: 85%;
+}
+.btn{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    padding: 10px;
+    border: 0px;
+    border-radius: 30px;
+}
+.btn-top{
+    width: 10%;
+    background-image: linear-gradient(to right,#4d4dff,#ac46ff,#b76cfd,#ff4eff);
+}
+.btn-btm{
+    font-size: 1.3rem;
+    text-align: center;
+    background-image: linear-gradient(to left,#4d4dff,#ac46ff,#b76cfd,#ff4eff);
+}
+.btn-top:hover{
+    background-image: linear-gradient(to top,#4d4dff,#ac46ff,#b76cfd,#ff4eff);
+    cursor: pointer;
+}
+.btn-btm:hover{
+    background-image: linear-gradient(to top,#4d4dff,#ac46ff,#b76cfd,#ff4eff);
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+@media (max-width: 992px){
+.navbar button{
+    display: none;
+}
+.navbar{
+    justify-content: space-between;
+}
+.navbar i{
+    display: contents;
+    color: #1818df;
+}
+.flex-title{
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media (max-width:749px) {
+    .navbar ul,.navbar button{
+        display: none;
+    }
+    .title-content{
+        width: auto;
+    }
+}
